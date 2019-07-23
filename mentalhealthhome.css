@@ -13,8 +13,8 @@ h1 {
 
 .column {
   float: left;
-  margin-left:100px;
-  width: 30%;
+  margin-left:200px;
+  width: 40%;
   padding: 10px;
 }
 
@@ -26,8 +26,8 @@ h1 {
 
 .column1 {
   float: left;
-  margin-left:100px;
-  width: 30%;
+  margin-left:150px;
+  width: 40%;
   padding: 10px;
 }
 
