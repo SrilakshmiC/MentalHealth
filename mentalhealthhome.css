@@ -1,0 +1,38 @@
+h1 {
+  color:white;
+  text-align: center;
+}
+
+.question{
+  color:#2E89FF;
+}
+
+.answer{
+  color:#FFA62F;
+}
+
+.column {
+  float: left;
+  margin-left:100px;
+  width: 40%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column1 {
+  float: left;
+  margin-left:100px;
+  width: 40%;
+  padding: 10px;
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
