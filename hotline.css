@@ -41,8 +41,8 @@ a {
 h2 {
   color: #8ae67c;
 }
-h2 {
-  margin: 80px;
+h3 {
+  color: #8ae67c;
 }
 a:hover {
   color: #f299cb;
@@ -50,4 +50,10 @@ a:hover {
 
 div{
   text-align: center;
+}
+li{
+  color: white;
+}
+ul{
+  text-align: left;
 }
