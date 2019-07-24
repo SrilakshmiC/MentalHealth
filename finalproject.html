@@ -1,1 +1,88 @@
-<!HTML>
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel = "stylesheet" href = "finalproject.css">
+<title> About Us </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+
+<body>
+  <h1>About Us</h1>
+  <p>
+  Hi! Thanks for visiting. This website is our final project for the Girls Who Code Summer Immersion Program. Our names are Sri, Aaliyah, and Stephany. Here's a little information about us and why we decided to make this website our final project.
+  </p>  
+  <br>
+  <div class="column">
+      <div class="card">
+        <h3>Sri</h3>
+        <p>bio </p>
+      </div>
+  </div>
+  <div class="column">
+      <div class="card">
+        <h3>Aaliyah</h3>
+        <p>bio </p>
+      </div>
+  </div>
+  <div class="column">
+      <div class="card">
+        <h3>Stephany</h3>
+        <p class = "bio">I'm a 16-year-old upcoming senior from Los Angeles, California. I like astronomy, physics, drinking tea, and going to the beach. I spent most of my summer at the Girls Who Code Summer Immersion Program based in El Segundo, California. Here I learned the basics of coding, web development, and robotics. For my final project at this program, I teamed up with another two of my classmates, Sri and Aaliyah, to make this website. I decided to make mental health the topic of my website because I care about this issue strongly and believe that technology and the internet are helpful tools that can be used to spread awareness and encourage healthy coping practices.</p> 
+      </div>
+  </div>
+
+</body>
+
+</html>
+<style>
+    body {
+    background-color: black
+    }
+</style>
+
+
+
