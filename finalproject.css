@@ -1,4 +1,4 @@
-/* ul {
+ul {
  list-style-type: none;
  margin: 0;
  padding: 0;
@@ -6,8 +6,7 @@
  background-color: #7cd8e6;
  font-weight: bold;
 }
-
-li{
+ li{
   float: left;
 }
 
@@ -21,10 +20,12 @@ li a {
 
 li a:hover{
   background-color: #f299cb;
-} */
+}  
+
 
 h1{
   color: white;
+  text-align: center;
 }
 
 p{
