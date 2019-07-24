@@ -6,6 +6,11 @@ ul {
  background-color: #7cd8e6;
 }
 
+li{
+  float: left;
+}
+
+
 
 h1{
   color: white;
