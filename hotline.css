@@ -22,7 +22,6 @@ li a:hover{
   background-color: #f299cb;
 }  
 
-
 body {
   background-color: black;
 }
@@ -51,9 +50,10 @@ a:hover {
 div{
   text-align: center;
 }
-li{
+.bullet{
   color: white;
 }
-ul{
+
+.list{
   text-align: left;
 }
