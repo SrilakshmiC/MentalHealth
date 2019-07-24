@@ -1,4 +1,4 @@
-ul {
+.bar {
  list-style-type: none;
  margin: 0;
  padding: 0;
@@ -20,7 +20,7 @@ li a {
 
 li a:hover{
   background-color: #f299cb;
-}  
+}
 
 body {
   background-color: black;
@@ -56,4 +56,6 @@ div{
 
 .list{
   text-align: left;
+  background-color: black;
+  list-style-type: square;
 }
