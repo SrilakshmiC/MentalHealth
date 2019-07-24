@@ -4,6 +4,7 @@ ul {
  padding: 0;
  overflow: hidden;
  background-color: #7cd8e6;
+ font-weight: bold;
 }
 
 li{
@@ -17,6 +18,8 @@ li a {
   padding: 16px 40px;
   text-decoration: none;
 }
+
+
 
 h1{
   color: white;
