@@ -6,8 +6,7 @@ ul {
  background-color: #7cd8e6;
  font-weight: bold;
 }
-
-li{
+ li{
   float: left;
 }
 
@@ -21,7 +20,8 @@ li a {
 
 li a:hover{
   background-color: #f299cb;
-}
+}  
+
 
 body {
   background-color: black;
