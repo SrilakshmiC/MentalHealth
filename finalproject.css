@@ -10,7 +10,13 @@ li{
   float: left;
 }
 
-
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 40px;
+  text-decoration: none;
+}
 
 h1{
   color: white;
