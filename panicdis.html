@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = "panicdis.css">
+</head>
+<body>
+
+  <ul class = "navbar">
+		<li class = "nav"> <a href = "index.html"> HOME </a> </li>
+    <li class = "nav"> <a href = "panicdis.html"> TYPES </a> </li>
+		<li class = "nav"> <a href = "hotline.html"> HOTLINES </a> </li>
+		<li class = "nav"> <a href = "mentalhealthmerch.html"> MERCH </a> </li>
+		<li class = "nav"> <a href = "finalproject.html"> ABOUT US </a> </li>
+	</ul>
+
+    <h1>Types of Mental Health Disorders</h1>
+
+  <ul class = "info">
+    <li class = "infoCard">
+    <div class = "card">
+      <h2>Panic</h2>
+      <h3> Panic Attacks are unexpected and are simply loops of enormous fear with various physical symptoms that can differ from attack to attack and person to person.  </h3>
+      <button onclick="on('panic')">Press to learn more</button>
+    </div>
+    </li>
+
+    <li class = "infoCard">
+    <div class = "card">
+      <h2>Eating Disorder</h2>
+      <h3> Eating disorders are serious medical illnesses marked by major disturbances to a person’s eating habits. The most common eating disorders are Bulimia Nervosa, Anorexia Nervosa, and Binge Eating.</h3>
+      <button onclick="on('eating')">Press to learn more</button>
+    </div>
+    </li>
+
+    <li class = "infoCard">
+    <div class = "card">
+      <h2>Post Traumatic Stress Disorder (PTSD)</h2>
+      <h3> Post Traumatic Stress Disorder is a disorder that can occur in people who have experienced or witnessed a traumatic event.</h3>
+      <button onclick="on('PTSD')">Press to learn more</button>
+    </div>
+    </li>
+
+    <li class = "infoCard">
+    <div class = "card">
+      <h2>Generalized Anxiety Disorder (GAD)</h2>
+      <h3>Generalized Anxiety is a disorder where the affected person has a persistent and excessive worry about a number of different things. This anxiety is only one type, and is one of the very common ones that is a combonation of others. </h3>
+      <button onclick="on('anxiety')">Press to learn more</button>
+    </div>
+    </li>
+
+    <li class = "infoCard">
+    <div class = "card">
+      <h2>Depression</h2>
+      <h3>There are many different types of depression, but in general, depression is a mood disorder that involves feeling hopeless, sad, and/or empty for an extensive amount of time or to a point in which one can no longer find enjoyment in life. </h3>
+      <button onclick="on('depression')">Press to learn more</button>
+    </div>
+    </li>
+
+    <li class = "infoCard">
+    <div class = "card">
+      <h2>Social Anxiety</h2>
+      <h3>Social anxiety is a mental health disorder in which the person affected fears social interaction for the fear of being judged, negatively evaluated, or rejected in a social or performance situation.</h3>
+      <button onclick="on('social')">Press to learn more</button>
+    </div>
+    </li>
+
+    <li class = "infoCard">
+    <div class = "card">
+      <h2>Suicidal Behavior</h2>
+      <h3>Suicidal behavior is an indicator that one no longer has the desire to live and may hurt or kill themselves as a result. </h3>
+      <button onclick="on('suicidal')">Press to learn more</button>
+    </div>
+    </li>
+
+    <li class = "infoCard">
+    <div class = "card">
+      <h2>Obsessive compulsive disorder (OCD)</h2>
+      <h3>OCD is a disorder where the affected person has the urge to repeat thoughts and behaviors over and over again. These thoughts and behaviors are specific to the person affected. </h3>
+      <button onclick="on('ocd')">Press to learn more</button>
+    </div>
+    </li>
+
+  </ul>
+
+<!-- cards end -->
+
+  <div id="panic" class = "overlay" onclick="off('panic')">
+    <div id="text">
+      <ul class = "listocar">
+        <li class = "sympList">
+          <h3 class = "symptoms"> Symptoms </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Sense of impending doom or danger</li><h4>
+              <h4><li class = "bullet">Shortness of breath or tightness in your throat</li><h4>
+              <h4><li class = "bullet">Chills/Hot flashes</li><h4>
+              <h4><li class = "bullet">Dizziness, lightheadedness or faintness</li><h4>
+              <h4><li class = "bullet">Rapid, pounding heart rate</li><h4>
+              <h4><li class = "bullet">Feeling of unreality or detachment</li><h4>
+          </ul>
+        </li>
+        <li class = "cauList">
+          <h3 class = "causes"> Causes </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Thoughts & Experience of a Horrible Event</li><h4>
+              <h4><li class = "bullet">Embarrassment & Humiliation in social situation</li><h4>
+              <h4><li class = "bullet">Constant worries</li><h4>
+              <h4><li class = "bullet">Physical symptoms</li><h4>
+              <h4><li class = "bullet">Depression</li><h4>
+              <h4><li class = "bullet">Substance Abuse</li><h4>
+          </ul>
+        </li>
+        <li class = "treaList">
+          <h3 class = "treatments"> Treatments </h3>
+          <ul class = "list">
+            <h4><li class = "bullet">Psychoeducation</li></h4>
+            <h4><li class = "bullet">Breathing Retraining</li></h4>
+            <h4><li class = "bullet">Exposure to fear bodily sensations</li></h4>
+            <h4><li class = "bullet">Exposure to feared situations</li></h4>
+            <h4><li class = "bullet">Changing uphelpful, negative thoughts</li></h4>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="eating" class = "overlay" onclick="off('eating')">
+    <div id="text">
+      <ul class = "listocar">
+        <li class = "sympList">
+          <h3 class = "symptoms"> Symptoms </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Extremely Restricted Eating/Eating fast during binge</li><h4>
+              <h4><li class = "bullet">Extreme thinness/Intense fear of gaining weight</li><h4>
+              <h4><li class = "bullet">Eating even when full or not hungry/Eating alone or in secret to avoid embarrassment</li><h4>
+              <h4><li class = "bullet">A self esteem that is heavily influenced by perceptions of body weight</li><h4>
+              <h4><li class = "bullet">Chronically inflamed and sore throat/Swollen salivary glands</li><h4>
+              <h4><li class = "bullet">Decaying teeth/Intestinal distress</li><h4>
+          </ul>
+        </li>
+        <li class = "cauList">
+          <h3 class = "causes"> Causes </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Genetics</li><h4>
+              <h4><li class = "bullet">Environment </li><h4>
+              <h4><li class = "bullet">Peer Pressure </li><h4>
+              <h4><li class = "bullet">Emotional Health</li><h4>
+              <h4><li class = "bullet">Dieting and starvation</li><h4>
+              <h4><li class = "bullet">Stress</li><h4>
+          </ul>
+        </li>
+        <li class = "treaList">
+          <h3 class = "treatments"> Treatments </h3>
+          <ul class = "list">
+            <h4><li class = "bullet">Psychotherapy </li></h4>
+            <h4><li class = "bullet">Medicine (antidepressants and anti-anxiety drugs)</li></h4>
+            <h4><li class = "bullet">Nutritional counseling and weight restoration monitoring </li></h4>
+            <h4><li class = "bullet">Medical or dental specialists</li></h4>
+            <h4><li class = "bullet">Develop a treatment plan</li></h4>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="PTSD" class = "overlay" onclick="off('PTSD')">
+    <div id="text">
+      <ul class = "listocar">
+        <li class = "sympList">
+          <h3 class = "symptoms"> Symptoms </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Reexperiencing - reliving the event</li><h4>
+              <h4><li class = "bullet">Hyperarousal - restlessness, feeling high-strung, jumpy, or uneasy</li><h4>
+              <h4><li class = "bullet">Avoidance - avoiding situations, locations, and/or people that are a reminder of the traumatic event</li><h4>
+              <h4><li class = "bullet">Negative changes in beliefs - start to take a negative sense of self and/or others in life which can lead to a negative worldview.</li><h4>
+              <h4><li class = "bullet">Memory problems</li><h4>
+              <h4><li class = "bullet">Lack of interest in activities you once enjoyed/Self destructive behavior</li><h4>
+          </ul>
+        </li>
+        <li class = "cauList">
+          <h3 class = "causes"> Causes </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Car accident</li><h4>
+              <h4><li class = "bullet">Plane crash</li><h4>
+              <h4><li class = "bullet">Unexpected death of a loved one</li><h4>
+              <h4><li class = "bullet">Emotional abuse</li><h4>
+              <h4><li class = "bullet">Childhood neglect</li><h4>
+              <h4><li class = "bullet">Natural Disasters (floods, earthquakes, blizzards, etc)/War</li><h4>
+          </ul>
+        </li>
+        <li class = "treaList">
+          <h3 class = "treatments"> Treatments </h3>
+          <ul class = "list">
+            <h4><li class = "bullet">Psychotherapy </li></h4>
+            <h4><li class = "bullet">Medication</li></h4>
+            <h4><li class = "bullet">Self Management Strategies (check out resources page for more info)</li></h4>
+            <h4><li class = "bullet">Service Dogs</li></h4>
+            <h4><li class = "bullet">Narrative exposure therapy</li></h4>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="anxiety" class = "overlay" onclick="off('anxiety')">
+    <div id="text">
+      <ul class = "listocar">
+        <li class = "sympList">
+          <h3 class = "symptoms"> Symptoms </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Worrying a lot about everyday things</li><h4>
+              <h4><li class = "bullet">Have trouble controlling worries or feelings of nervousness</li><h4>
+              <h4><li class = "bullet">Feels easily tired or tired all the time</li><h4>
+              <h4><li class = "bullet">Has headaches, muscle aches, stomach aches, or explained pains</li><h4>
+              <h4><li class = "bullet">Difficulty handling uncertainty/Difficulty concentrating</li><h4>
+              <h4><li class = "bullet">Perceiving situations as threatening even when they aren't</li><h4>
+          </ul>
+        </li>
+        <li class = "cauList">
+          <h3 class = "causes"> Causes </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Genetics</li><h4>
+              <h4><li class = "bullet">Differences in brain chemistry and function</li><h4>
+              <h4><li class = "bullet">Development and personality</li><h4>
+              <h4><li class = "bullet">Differences in the way threats are perceived</li><h4>
+              <h4><li class = "bullet">Tobacco use and caffeine</li><h4>
+              <h4><li class = "bullet">Long-term substance abuse </li><h4>
+          </ul>
+        </li>
+        <li class = "treaList">
+          <h3 class = "treatments"> Treatments </h3>
+          <ul class = "list">
+            <h4><li class = "bullet">Psychotherapy </li></h4>
+            <h4><li class = "bullet">Medication</li></h4>
+            <h4><li class = "bullet">Serotonin norepinephrine reuptake inhibitors</li></h4>
+            <h4><li class = "bullet">Self care - exercise, meditation and yoga</li></h4>
+            <h4><li class = "bullet">Benzodiazepines</li></h4>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="depression" class = "overlay" onclick="off('depression')">
+    <div id="text">
+      <ul class = "listocar">
+        <li class = "sympList">
+          <h3 class = "symptoms"> Symptoms </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">suicidal thoughts</li><h4>
+              <h4><li class = "bullet">lack of or excessive sleep or appetite</li><h4>
+              <h4><li class = "bullet">lack of energy and/or concentration</li><h4>
+              <h4><li class = "bullet">loss of interest</li><h4>
+              <h4><li class = "bullet">feelings of hopelessness or guilt</li><h4>
+              <h4><li class = "bullet">physical aches and pains</li><h4>
+          </ul>
+        </li>
+        <li class = "cauList">
+          <h3 class = "causes"> Causes </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">brain chemistry</li><h4>
+              <h4><li class = "bullet">trauma</li><h4>
+              <h4><li class = "bullet">social environment/tragic events</li><h4>
+              <h4><li class = "bullet">life experiences/stress</li><h4>
+              <h4><li class = "bullet">genetics</li><h4>
+              <h4><li class = "bullet">hormones</li><h4>
+          </ul>
+        </li>
+        <li class = "treaList">
+          <h3 class = "treatments"> Treatments </h3>
+          <ul class = "list">
+            <h4><li class = "bullet">Psychotherapy</li></h4>
+            <h4><li class = "bullet">Cognitive behavioral therapy</li></h4>
+            <h4><li class = "bullet">Behavior therapy</li></h4>
+            <h4><li class = "bullet">Medication</li></h4>
+            <h4><li class = "bullet">Electroconvulsive therapy</li></h4>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="social" class = "overlay" onclick="off('social')">
+    <div id="text">
+      <ul class = "listocar">
+        <li class = "sympList">
+          <h3 class = "symptoms"> Symptoms </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">“out-of-body” sensation</li><h4>
+              <h4><li class = "bullet">Depression/fear</li><h4>
+              <h4><li class = "bullet">Palpitations/social isolation</li><h4>
+              <h4><li class = "bullet">Dizziness</li><h4>
+              <h4><li class = "bullet">Physical Symptoms (sweating, muscle tension, etc.)</li><h4>
+              <h4><li class = "bullet">Inability to catch breath before, during, or after social interaction or the prospect of social interaction</li><h4>
+          </ul>
+        </li>
+        <li class = "cauList">
+          <h3 class = "causes"> Causes </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">health conditions that cause physical changes to one’s voice or appearance</li><h4>
+              <h4><li class = "bullet">genetics</li><h4>
+              <h4><li class = "bullet">overactive amygdala</li><h4>
+              <h4><li class = "bullet">trauma/abuse</li><h4>
+              <h4><li class = "bullet">puberty</li><h4>
+              <h4><li class = "bullet">life experiences</li><h4>
+          </ul>
+        </li>
+        <li class = "treaList">
+          <h3 class = "treatments"> Treatments </h3>
+          <ul class = "list">
+            <h4><li class = "bullet">Psychotherapy </li></h4>
+            <h4><li class = "bullet">Cognitive behavioral therapy</li></h4>
+            <h4><li class = "bullet">Exposure therapy</li></h4>
+            <h4><li class = "bullet">Meditation</li></h4>
+            <h4><li class = "bullet">Medication</li></h4>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="suicidal" class = "overlay" onclick="off('suicidal')">
+    <div id="text">
+      <ul class = "listocar">
+        <li class = "sympList">
+          <h3 class = "symptoms"> Symptoms </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Wanting to die or to kill oneself feeling trapped or in pain</li><h4>
+              <h4><li class = "bullet">Abuse of alcohol or drugs</li><h4>
+              <h4><li class = "bullet">Lack of or excessive sleep/social withdrawal</li><h4>
+              <h4><li class = "bullet">Feeling or expressing extreme rage, and extreme mood swings</li><h4>
+              <h4><li class = "bullet">Feeling trapped or in pain</li><h4>
+              <h4><li class = "bullet">Feeling like a burden</li><h4>
+          </ul>
+        </li>
+        <li class = "cauList">
+          <h3 class = "causes"> Causes </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Trauma</li><h4>
+              <h4><li class = "bullet">Alcohol or drug addiction</li><h4>
+              <h4><li class = "bullet">Other mental disorders</li><h4>
+              <h4><li class = "bullet">Depression due to disease or disability</li><h4>
+              <h4><li class = "bullet">Lack of access to behavioral health care</li><h4>
+              <h4><li class = "bullet">Stress resulting from prejudice and discrimination, hopelessness, loss, guilt, and grief</li><h4>
+          </ul>
+        </li>
+        <li class = "treaList">
+          <h3 class = "treatments"> Treatments </h3>
+          <ul class = "list">
+            <h4><li class = "bullet">Psychotherapy (CALL THE NATIONAL SUICIDE PREVENTION LIFELINE or 911) </li></h4>
+            <h4><li class = "bullet">Cognitive behavioral therapy</li></h4>
+            <h4><li class = "bullet">Reduce access to weapons or other potentially harmful objects</li></h4>
+            <h4><li class = "bullet">Establish a support network</li></h4>
+            <h4><li class = "bullet">Treat underlying causes</li></h4>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="ocd" class = "overlay" onclick="off('ocd')">
+    <div id="text">
+      <ul class = "listocar">
+        <li class = "sympList">
+          <h3 class = "symptoms"> Symptoms </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Depression/Fear</li><h4>
+              <h4><li class = "bullet">Food aversion</li><h4>
+              <h4><li class = "bullet">Anxiety/apprehension</li><h4>
+              <h4><li class = "bullet">Panic attack</li><h4>
+              <h4><li class = "bullet">Compulsive behavior</li><h4>
+              <h4><li class = "bullet">Repeatedly going over thoughts</li><h4>
+          </ul>
+        </li>
+        <li class = "cauList">
+          <h3 class = "causes"> Causes </h3>
+          <ul class = "list">
+              <h4><li class = "bullet">Inflated responsibility</li><h4>
+              <h4><li class = "bullet">Overimportance of thoughts</li><h4>
+              <h4><li class = "bullet">Perfectionism</li><h4>
+              <h4><li class = "bullet">Intolerance for uncertainty</li><h4>
+              <h4><li class = "bullet">Overestimation of threat</li><h4>
+              <h4><li class = "bullet">Control of thoughts</li><h4>
+          </ul>
+        </li>
+        <li class = "treaList">
+          <h3 class = "treatments"> Treatments </h3>
+          <ul class = "list">
+            <h4><li class = "bullet">Cognitive behavioral therapy </li></h4>
+            <h4><li class = "bullet">Exposure and response prevention</li></h4>
+            <h4><li class = "bullet">Medication</li></h4>
+            <h4><li class = "bullet">Clinical trials</li></h4>
+            <h4><li class = "bullet">Deep brain stimulation</li></h4>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<script>
+function on(topic) {
+  document.getElementById(topic).style.display = "inline-flex";
+}
+
+function off(topic) {
+  document.getElementById(topic).style.display = "none";
+}
+</script>
+
+</body>
+</html>
