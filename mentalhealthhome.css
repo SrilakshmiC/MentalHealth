@@ -25,6 +25,7 @@ li a:hover{
 
 body {
  font-family: Georgia, serif;
+ margin-right: 200px;
 }
 
 h1 {
@@ -47,7 +48,6 @@ h1 {
   width: 30%;
   padding: 10px;
   font-size: 25px;
-  margin-right: 200px;
 }
 
 .row::after {
@@ -62,7 +62,6 @@ h1 {
   width: 30%;
   padding: 10px;
   font-size: 25px;
-  margin-right: 200px;
 }
 
 .row1::after {
