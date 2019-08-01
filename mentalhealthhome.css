@@ -30,7 +30,7 @@ body {
 h1 {
   color:white;
   text-align: center;
-  font-size: 26px;
+  font-size: 30px;
 }
 
 .question{
@@ -46,7 +46,8 @@ h1 {
   margin-left:150px;
   width: 30%;
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
+  margin-right: 200px;
 }
 
 .row::after {
@@ -60,7 +61,8 @@ h1 {
   margin-left:150px;
   width: 30%;
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
+  margin-right: 200px;
 }
 
 .row1::after {
